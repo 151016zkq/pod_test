@@ -17,7 +17,7 @@ DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
   - Nimble (~> 7.0)
   - Nimble-Snapshots (~> 6.3.0)
-  - pod_test (from `../`)
+  - pod_test (from `../pod_test.podspec`)
   - Quick (~> 1.2.0)
 
 SPEC REPOS:
@@ -29,7 +29,7 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   pod_test:
-    :path: "../"
+    :podspec: "../pod_test.podspec"
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
@@ -38,6 +38,6 @@ SPEC CHECKSUMS:
   pod_test: 460bd2f0ab80933ad694fba0d6d49a8c2a299934
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
 
-PODFILE CHECKSUM: 7d6272bed82e8c2755e5ba0757fbd874a3235f79
+PODFILE CHECKSUM: ddc861ca74fc7dd58a157a87ab5a04b3f0279856
 
 COCOAPODS: 1.9.3
